@@ -1,0 +1,20 @@
+{
+  "name": "entregable-playwright",
+  "version": "1.0.0",
+  "description": "Laboratorio de automatizacion con Playwright y TypeScript - reto sobre The Cat API (docs)",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --project=reto",
+    "test:headed": "playwright test --project=reto --headed",
+    "test:ui": "playwright test --project=reto --ui",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.6"
+  }
+}
