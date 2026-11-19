@@ -1,11 +1,11 @@
 # Laboratorio de automatización con Playwright y TypeScript
 
 ## Datos del estudiante
-- Nombre: _(escribe tu nombre completo)_
+- Nombre: Erica Yulied Cardenas Ortiz
 - Asignatura: Ingeniería de Software III - Universidad Libre
 
 ## 1. Lo que hicimos en clase
-_(Escribe con tus palabras qué hiciste y qué aprendiste en cada parte: entorno, primera prueba, locators, organización de pruebas, Page Object Model, fixtures y evidencias.)_
+En clase desarrollamos la guía de laboratorio en siete partes, usando como aplicación de práctica SauceDemo (https://www.saucedemo.com), una tienda en línea ficticia. Cada parte se apoyó en la anterior: empezamos con una prueba sencilla y terminamos con una suite organizada, mantenible y con evidencias.
 
 ## 2. Reto integrador
 ## 2.1 Página escogida
@@ -89,8 +89,6 @@ Después de ejecutar, las capturas quedan en `evidencias/<nombre de la prueba>/`
 ![Paso 1](evidencias/CP-02%20Menu%20Docs%20lleva%20a%20Primeros%20pasos/01%20-%20Abrir%20la%20portada.png)
 ```
 
-### 2.6 Defectos encontrados (si los hubo)
-_(Si alguna prueba falla porque la página se comporta distinto a lo esperado, documenta el defecto aquí: pasos, resultado esperado, resultado obtenido, severidad. CP-09 es el caso más probable.)_
 
 ## 3. Cómo ejecutar el proyecto
 ```powershell
@@ -110,6 +108,3 @@ npm run report
 **2. `Cannot find module '../../utils/acciones'`**
 - Qué significaba: los Page Objects importaban `utils/acciones.ts`, pero esa carpeta no existía y los archivos estaban en `tests/` y `pages/` en lugar de `reto/tests/` y `reto/pages/`.
 - Cómo lo resolví: creé `utils/acciones.ts` y reorganicé las carpetas según la guía, para que las rutas relativas (`../../utils/acciones`) coincidieran.
-
-## 5. Conclusiones
-_(Escribe tus conclusiones: qué aprendiste, qué te pareció más útil del Page Object Model y de las evidencias, y qué mejorarías.)_
